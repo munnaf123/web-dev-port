@@ -38,7 +38,7 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
-.dark2{
+.dark2, .experience-title{
     color: #474747;
 }
 .btn{
@@ -88,11 +88,18 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+.textcenter{
+    text-align: center;
+}
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .item-des{
     font-size: 20px;
@@ -102,4 +109,52 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.skillcont{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-cont{
+    display: flex;
+    gap: 24px;
+}
+.experience-des{
+    color: #757575;
+}
+.experience-sub{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.experience-title{
+    font-weight: bold;
+    font-weight: 30px;
+}
+.resume-dc{
+    margin-top: 50px;
+}
+.footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-clm{
+    width: 50%;
+}
+footer input[type="text"], .footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    
 }
